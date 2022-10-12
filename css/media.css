@@ -1,0 +1,772 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .banner_text p {
+        padding: 60px 110px 55px;
+    }
+    .video_text h3 {
+        font-size: 14px;
+    }
+    .footer_left p a {
+        font-size: 13px;
+    }
+    .footer_right p {
+        font-size: 13px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Navbar Start */
+    .fa-solid, .fas {
+        color: #00e0d0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #00e0d0;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+    }
+    .navbar-light .navbar-toggler:hover .fa-solid {
+        color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-toggler:hover .fas {
+        color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-toggler:hover {
+        border-color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        background: rgba(21, 12, 38, 0.90);
+        text-align: center;
+    }
+    /* Navbar End */
+
+     /* Banner Part Start */
+     .banner_text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner_text h1::after {
+        bottom: -22px;
+    }
+    .banner_text p {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 40px 0px 40px;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    .banner_overlay {
+        padding-top: 160px;
+        padding-bottom: 85px;
+    }
+    .slick-dots li {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots .slick-active {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots {
+        bottom: -52px;
+    }
+    /* Banner Part End */
+
+    /* Story Part Start */
+    #story {
+        padding: 55px 0px;
+    }
+    .story_text {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .story_text p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-right: 0px;
+    }
+    /* Story Part End */
+
+    /* Video Part Start */
+    .video_overlay {
+        padding: 100px 0px;
+    }
+    /* Video Part End */
+
+     /* Expertise Part Start */
+     #expertise {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .expertise_text h3 {
+        font-size: 20px;
+    }
+    .expertise_text p {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 10px 10px;
+    }
+    .expertise_text p::after {
+        bottom: -10px;
+    }
+    .expertise_item {
+        margin-top: 45px;
+    }
+    .expertise_item_text h4 {
+        padding-top: 30px;
+    }
+    .expertise_item_text p {
+        font-size: 13px;
+        padding: 0px 20px;
+    }
+    /* Expertise Part End */
+
+     /* Team Part Start */    
+     .team_overlay {
+        padding: 55px 0px;
+    }
+    .team_item {
+        margin-top: 35px;
+    }
+    .team_bttm_text p {
+        padding-top: 50px;
+    }
+    /* Team Part End */
+
+    /* Work Part Start */
+    #work {
+        padding: 55px 0px;
+    }
+    .work_btn button {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+    .work_btn {
+        margin-top: 40px;
+    }
+    .work_image {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    /* Work Part End */
+
+    /* Quote Part Start */
+    .quote_overlay {
+        padding-top: 55px;
+        padding-bottom: 100px;
+    }
+    .quote_text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 50px 0px 40px;
+    }
+    .quote_slick .slick-dots {
+        bottom: -85px;
+    }
+    .quote_slick .slick-dots li {
+        height: 12px;
+        width: 12px;
+    }
+    .quote_slick .slick-dots .slick-active {
+        border: 2px solid #fff;
+    }
+    /* Quote Part End */
+
+    /* Mail Part Start */
+    #mail {
+        padding: 0px 0px;
+    }
+    .mail_text h3 {
+        font-size: 20px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    input {
+        font-size: 13px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+    }
+    .mail_text {
+        margin-top: 60px;
+    }
+    .mail_submit {
+        text-align: center;
+    }
+    /* Mail Part End */
+
+    /* Footer Part Start */
+    .footer_overlay {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .first_footer_text p {
+        font-size: 13px;
+        text-align: center;
+        padding: 25px 10px 0px;
+    }
+    .common_head h3 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .contacts {
+        text-align: center;
+    }
+    .contacts ul {
+        margin-bottom: 0;
+    }
+    .social_icons {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer_bttm {
+        margin-top: 50px;
+    }
+    .footer_left {
+        text-align: center;
+    }
+    .pr_n {
+        padding-right: 0 !important;
+    }
+    .footer_left p a {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    .footer_right p {
+        font-size: 12px;
+    }
+    .footer_right {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .back-to-top {
+        bottom: 25px;
+        right: 25px;
+    }
+    .back-to-top i {
+        font-size: 30px;
+    }
+    /* Footer Part End */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    /* Navbar Start */
+    .fa-solid, .fas {
+        color: #00e0d0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #00e0d0;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+    }
+    .navbar-light .navbar-toggler:hover .fa-solid {
+        color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-toggler:hover .fas {
+        color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-toggler:hover {
+        border-color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        background: rgba(21, 12, 38, 0.90);
+        text-align: center;
+    }
+    /* Navbar End */
+
+     /* Banner Part Start */
+     .banner_text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner_text h1::after {
+        bottom: -22px;
+    }
+    .banner_text p {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 40px 40px 40px;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    .banner_overlay {
+        padding-top: 160px;
+        padding-bottom: 85px;
+    }
+    .slick-dots li {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots .slick-active {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots {
+        bottom: -52px;
+    }
+    /* Banner Part End */
+
+     /* Story Part Start */
+     #story {
+        padding: 35px 0px;
+    }
+    .story_text {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .story_text p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-right: 0px;
+    }
+    /* Story Part End */
+
+    /* Video Part Start */
+    .video_overlay {
+        padding: 100px 0px;
+    }
+    /* Video Part End */
+
+    /* Expertise Part Start */
+    #expertise {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .expertise_text h3 {
+        font-size: 20px;
+    }
+    .expertise_text p {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 10px 10px;
+    }
+    .expertise_text p::after {
+        bottom: -10px;
+    }
+    .expertise_item {
+        margin-top: 45px;
+    }
+    .expertise_item_text h4 {
+        padding-top: 30px;
+    }
+    .expertise_item_text p {
+        font-size: 13px;
+        padding: 0px 20px;
+    }
+    /* Expertise Part End */
+
+    /* Team Part Start */    
+    .team_overlay {
+        padding: 40px 0px;
+    }
+    .team_item {
+        margin-top: 35px;
+    }
+    .team_bttm_text p {
+        padding-top: 50px;
+    }
+    /* Team Part End */
+
+    /* Work Part Start */
+    #work {
+        padding: 40px 0px;
+    }
+    .work_btn button {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+    .work_btn {
+        margin-top: 40px;
+    }
+    .work_image {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    /* Work Part End */
+
+    /* Quote Part Start */
+    .quote_overlay {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
+    .quote_text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 50px 0px 40px;
+    }
+    .quote_slick .slick-dots {
+        bottom: -75px;
+    }
+    .quote_slick .slick-dots li {
+        height: 12px;
+        width: 12px;
+    }
+    .quote_slick .slick-dots .slick-active {
+        border: 2px solid #fff;
+    }
+    /* Quote Part End */
+
+    /* Mail Part Start */
+    #mail {
+        padding: 0px 0px;
+    }
+    .mail_text h3 {
+        font-size: 20px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    input {
+        font-size: 13px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+    }
+    .mail_text {
+        margin-top: 60px;
+    }
+    .mail_submit {
+        text-align: center;
+    }
+    /* Mail Part End */
+
+    /* Footer Part Start */
+    .footer_overlay {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .first_footer_text p {
+        font-size: 13px;
+        text-align: center;
+        padding: 25px 10px 0px;
+    }
+    .common_head h3 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .contacts {
+        text-align: center;
+    }
+    .contacts ul {
+        margin-bottom: 0;
+    }
+    .social_icons {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer_bttm {
+        margin-top: 50px;
+    }
+    .footer_left {
+        text-align: center;
+    }
+    .pr_n {
+        padding-right: 0 !important;
+    }
+    .footer_left p a {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    .footer_right p {
+        font-size: 12px;
+    }
+    .footer_right {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .back-to-top {
+        bottom: 25px;
+        right: 25px;
+    }
+    .back-to-top i {
+        font-size: 30px;
+    }
+    /* Footer Part End */
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    /* Navbar Start */
+    .fa-solid, .fas {
+        color: #00e0d0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #00e0d0;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+    }
+    .navbar-light .navbar-toggler:hover .fa-solid {
+        color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-toggler:hover .fas {
+        color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-toggler:hover {
+        border-color: rgba(0, 224, 209, 0.7);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        background: rgba(21, 12, 38, 0.90);
+        text-align: center;
+    }
+    /* Navbar End */
+
+    /* Banner Part Start */
+    .banner_text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner_text h1::after {
+        bottom: -22px;
+    }
+    .banner_text p {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 40px 0px 40px;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    .banner_overlay {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+    .slick-dots li {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots .slick-active {
+        height: 8px;
+        width: 8px;
+    }
+    .slick-dots {
+        bottom: -52px;
+    }
+    /* Banner Part End */
+
+    /* Story Part Start */
+    #story {
+        padding: 35px 0px;
+    }
+    .story_text {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .story_text p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-right: 0px;
+    }
+    /* Story Part End */
+
+    /* Video Part Start */
+    .video_overlay {
+        padding: 100px 0px;
+    }
+    /* Video Part End */
+
+    /* Expertise Part Start */
+    #expertise {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .expertise_text h3 {
+        font-size: 20px;
+    }
+    .expertise_text p {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 10px 10px;
+    }
+    .expertise_text p::after {
+        bottom: -10px;
+    }
+    .expertise_item {
+        margin-top: 45px;
+    }
+    .expertise_item_text h4 {
+        padding-top: 30px;
+    }
+    .expertise_item_text p {
+        font-size: 13px;
+        padding: 0px 20px;
+    }
+    /* Expertise Part End */
+
+    /* Team Part Start */    
+    .team_overlay {
+        padding: 40px 0px;
+    }
+    .team_item {
+        margin-top: 35px;
+    }
+    .team_bttm_text p {
+        padding-top: 50px;
+    }
+    /* Team Part End */
+
+    /* Work Part Start */
+    #work {
+        padding: 40px 0px;
+    }
+    .work_btn button {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+    .work_btn {
+        margin-top: 40px;
+    }
+    .work_image {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    /* Work Part End */
+
+    /* Quote Part Start */
+    .quote_overlay {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
+    .quote_text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 50px 0px 40px;
+    }
+    .quote_slick .slick-dots {
+        bottom: -75px;
+    }
+    .quote_slick .slick-dots li {
+        height: 10px;
+        width: 10px;
+    }
+    .quote_slick .slick-dots .slick-active {
+        border: 2px solid #fff;
+    }
+    /* Quote Part End */
+
+    /* Mail Part Start */
+    #mail {
+        padding: 0px 0px;
+    }
+    .mail_text h3 {
+        font-size: 20px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    input {
+        font-size: 13px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+    }
+    .mail_text {
+        margin-top: 45px;
+    }
+    .mail_submit {
+        text-align: center;
+    }
+    /* Mail Part End */
+
+    /* Footer Part Start */
+    .footer_overlay {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .first_footer_text p {
+        font-size: 13px;
+        text-align: center;
+        padding: 25px 10px 0px;
+    }
+    .common_head h3 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .contacts {
+        text-align: center;
+    }
+    .contacts ul {
+        margin-bottom: 0;
+    }
+    .social_icons {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer_bttm {
+        margin-top: 50px;
+    }
+    .footer_left {
+        text-align: center;
+    }
+    .pr_n {
+        padding-right: 0 !important;
+    }
+    .footer_left p a {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    .footer_right p {
+        font-size: 12px;
+    }
+    .footer_right {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .back-to-top {
+        bottom: 15px;
+        right: 15px;
+    }
+    .back-to-top i {
+        font-size: 30px;
+    }
+    /* Footer Part End */
+ }
+
+
+
+
+
+
+
+
